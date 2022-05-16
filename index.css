@@ -1,0 +1,71 @@
+.carousel-item img{
+    height: 50vh;
+}
+#rishikesh{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+#yoga{
+    color: black;
+}
+.blockquote{
+margin-top: 8vh;
+margin-right: 7vw;
+font-weight: 100;
+} 
+@media only screen and (max-width: 600px) {
+    .blockquote{
+        margin-top: 1vh;
+        margin-right: none;
+        }   
+        .lead,blockquote{
+            line-height: 1.0;
+        }
+        #waterfall{
+            margin-left: 10vw;
+        }
+}
+@media only screen and (min-width: 600px) {
+    .blockquote{
+        margin-top: 0%;
+        margin-right: none;
+        line-height: 1.2;
+        font-size: small;
+        }
+}
+@media only screen and (min-width: 768px) {
+    .blockquote{
+        margin-top: 3vh;
+        margin-right: none;
+        }  
+        blockquote{
+            line-height: 1.0;
+            font-size: unset;
+        } 
+}
+@media only screen and (min-width: 992px) {
+    .blockquote{
+        margin-top: 3vh;
+        margin-right: 7vw;
+        font-size: unset;
+        }
+}
+@media only screen and (min-width: 1200px) {
+    .blockquote{
+        margin-top: 8vh;
+        margin-right: 7vw;
+        font-size: unset;
+        }  
+}
+.footer{
+    background-color: rgb(61, 59, 59);
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.accordion-body{
+    background-color: rgb(50, 47, 47);
+    color: wheat;
+}
+
